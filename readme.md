@@ -1,0 +1,1 @@
+Dit is een kleine project gemaakt voor het ophalen van Nederlandse informatie over het coronavirus, ook heb ik deze API gemaakt voor mijn eigen website. 
