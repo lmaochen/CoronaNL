@@ -1,6 +1,6 @@
 <?php
     function retrieve($re){
-    $data = file_get_contents("https://www.rivm.nl/nieuws/actuele-informatie-over-coronavirus");    
+    $data = file_get_contents("https://www.rivm.nl/coronavirus-covid-19/weekcijfers-covid-19");    
     preg_match_all($re, $data, $matches, PREG_SET_ORDER, 0);
     return $matches;
     }
